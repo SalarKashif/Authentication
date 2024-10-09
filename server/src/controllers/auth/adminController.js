@@ -29,3 +29,5 @@ export const getAllUsers = asyncHandler(async (req, res) => {
 
   res.status(200).json({ message: "Here are all the users", users });
 });
+
+//test commit
